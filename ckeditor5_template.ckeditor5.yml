@@ -1,0 +1,12 @@
+ckeditor5_template_template:
+  ckeditor5:
+    plugins:
+      - template.Template
+  drupal:
+    label: Template
+    library: ckeditor5_template/template
+    admin_library: ckeditor5_template/admin
+    toolbar_items:
+      template:
+        label: Template
+    elements: false
