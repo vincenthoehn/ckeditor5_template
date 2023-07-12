@@ -1,0 +1,14 @@
+[
+    {
+      "title": "Paragraph",
+      "icon": "codeIcon",
+      "description": "Insert a simple paragraph.",
+      "html": "<p>Testparagraph</p>"
+    },
+    {
+        "title": "Div",
+        "icon": "codeIcon",
+        "description": "Insert a simple div.",
+        "html": "<div>Testparagraph</div>"
+    }
+  ]
