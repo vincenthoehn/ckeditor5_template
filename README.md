@@ -42,4 +42,8 @@ Your own content can be stored here in the following format:
 * icon | `*svg` from https://github.com/marella/material-design-icons/tree/ce219a76773e47b0e0a182ebf84e88ab38e540d6/svg/outlined
 * description | `string`
 * html | `any custom html code`
+
+## Demo
+
+![](https://git.drupalcode.org/project/ckeditor5_template/-/tree/master/icons/ckeditor5_template.gif)
  
