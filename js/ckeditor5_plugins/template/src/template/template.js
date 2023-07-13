@@ -4,7 +4,6 @@ import { Collection } from 'ckeditor5/src/utils';
 
 import noticeIcon from '@material-design-icons/svg/outlined/info.svg';
 import templateIcon from '@material-design-icons/svg/outlined/description.svg';
-//import svgIcons from '@material-design-icons/svg/outlined'; 
 
 export default class Template extends Plugin {
     async init() {
@@ -29,7 +28,14 @@ export default class Template extends Plugin {
           return dropdownView;
         });
 
-          const loadIcon = async(name) => await  import(`@material-design-icons/svg/outlined/alarm.svg`);
+        const loadIcon = (name) => {
+          try {
+            return require(`@material-design-icons/svg/outlined/${name}`).default
+          }catch(e){
+            console.error(`ckeditor5_template: Could not load ${name}, use default instead!`)
+          }
+          return noticeIcon
+        } 
 
         //create the items for the dropdown menu
         const createItems = (templateArray) => {
@@ -38,8 +44,7 @@ export default class Template extends Plugin {
               const templateElement = new Model ({
                 label: template.title, 
                 withText: true, 
-                icon: noticeIcon,
-                //icon: loadIcon(template.icon) || noticeIcon,
+                icon: loadIcon(template.icon),
                 tooltip: template.description,
                 html: template.html
               });
