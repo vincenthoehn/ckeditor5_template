@@ -5,7 +5,8 @@ stages:
 
 default:
   image: node:19.9-alpine #-alpine3.17
-
+  before_script:
+    - export NODE_OPTIONS=--openssl-legacy-provider
 cache:
   - key: &global_cache_node_mods
       files:
