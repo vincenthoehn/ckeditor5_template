@@ -22,7 +22,7 @@ Thats all :)
 
 ## Usage
 
-There is the file ckeditor5_template/js/ckeditor5_plugins/template/src/template
+There is the file `ckeditor5_template/js/ckeditor5_plugins/template/src/template`
 /ckeditor5_templates.json in the project. It is a JSON file that is loaded at runtime. 
 Your own content can be stored here in the following format:
 
@@ -34,12 +34,12 @@ Your own content can be stored here in the following format:
       "description": "Insert a link to the Drupal CKEditor5 project page.",
       "html": "<p>Do you know this cool <a href='https://www.drupal.org/project/ckeditor5' target='_blank'>editor</a>?</p>"
     },
-..
+...
 ]
 ```
 
 * title | `string`
-* icon | `*svg` from `https://github.com/marella/material-design-icons/tree/ce219a76773e47b0e0a182ebf84e88ab38e540d6/svg/outlined` 
+* icon | `*svg` from https://github.com/marella/material-design-icons/tree/ce219a76773e47b0e0a182ebf84e88ab38e540d6/svg/outlined
 * description | `string`
 * html | `any custom html code`
  
