@@ -52,6 +52,9 @@ getDirectories('./js/ckeditor5_plugins').forEach((dir) => {
       },
     },
     plugins: [
+      new webpack.optimize.LimitChunkCountPlugin({
+        maxChunks: 1,
+      }),
       // It is possible to require the ckeditor5-dll.manifest.json used in
       // core/node_modules rather than having to install CKEditor 5 here.
       // However, that requires knowing the location of that file relative to

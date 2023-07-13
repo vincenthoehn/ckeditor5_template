@@ -1,14 +1,14 @@
 [
     {
-      "title": "Paragraph",
-      "icon": "codeIcon",
-      "description": "Insert a simple paragraph.",
-      "html": "<p>Testparagraph</p>"
+      "title": "Link",
+      "icon": "alarm",
+      "description": "Insert a link to the Drupal CKEditor5 project site.",
+      "html": "<p>Do you know this cool <a href='https://www.drupal.org/project/ckeditor5' target='_blank'>editor</a>?</p>"
     },
     {
-        "title": "Div",
-        "icon": "codeIcon",
+        "title": "Simple Table",
+        "icon": "apps",
         "description": "Insert a simple div.",
-        "html": "<div>Testparagraph</div>"
+        "html": "<table border='1'><tr><th>Header 1</th><th>Header 2</th><th>Header 3</th></tr><tr><td>Row 1, Column 1</td><td>Row 1, Column 2</td><td>Row 1, Column 3</td></tr><tr><td>Row 2, Column 1</td><td>Row 2, Column 2</td><td>Row 2, Column 3</td></tr><tr><td>Row 3, Column 1</td><td>Row 3, Column 2</td><td>Row 3, Column 3</td></tr></table>"
     }
   ]

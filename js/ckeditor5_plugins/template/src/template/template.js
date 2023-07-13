@@ -2,9 +2,9 @@ import { Plugin } from 'ckeditor5/src/core';
 import { createDropdown, addListToDropdown, Model } from 'ckeditor5/src/ui';
 import { Collection } from 'ckeditor5/src/utils';
 
-import stockIcon from '/var/www/html/swportl/web/modules/custom/ckeditor5_template/icons/templateIcons/noticeIcon.svg';
-import templateIcon from '/var/www/html/swportl/web/modules/custom/ckeditor5_template/icons/template.svg';
-import * as svgIcons from '/var/www/html/swportl/web/modules/custom/ckeditor5_template/icons/templateIcons'; 
+import noticeIcon from '@material-design-icons/svg/outlined/info.svg';
+import templateIcon from '@material-design-icons/svg/outlined/description.svg';
+//import svgIcons from '@material-design-icons/svg/outlined'; 
 
 export default class Template extends Plugin {
     async init() {
@@ -29,6 +29,8 @@ export default class Template extends Plugin {
           return dropdownView;
         });
 
+          const loadIcon = async(name) => await  import(`@material-design-icons/svg/outlined/alarm.svg`);
+
         //create the items for the dropdown menu
         const createItems = (templateArray) => {
           const collection = new Collection();
@@ -36,7 +38,8 @@ export default class Template extends Plugin {
               const templateElement = new Model ({
                 label: template.title, 
                 withText: true, 
-                icon: svgIcons[template.icon] || stockIcon,
+                icon: noticeIcon,
+                //icon: loadIcon(template.icon) || noticeIcon,
                 tooltip: template.description,
                 html: template.html
               });
