@@ -44,6 +44,6 @@ Your own content can be stored here in the following format:
 * html | `any custom html code`
 
 ## Demo
+![ckeditor5_template](https://github.com/vincenthoehn/ckeditor5_template/assets/78547173/9fda4c64-a416-4b10-b46c-360daeded1b8)
 
-![](https://git.drupalcode.org/project/ckeditor5_template/-/tree/master/icons/ckeditor5_template.gif)
  
