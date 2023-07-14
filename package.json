@@ -6,8 +6,8 @@
   "scripts": {
     "dll:build": "webpack --config webpack.config.js"
   },
-  "author": "VTHN",
-  "license": "ISC",
+  "author": "Vincent Höhn (vincent.hoehn)",
+  "license": "GPL-2.0-or-later",
   "devDependencies": {
     "@ckeditor/ckeditor5-dev-utils": "^30.0.0",
     "ckeditor5": "^33.0.0",
