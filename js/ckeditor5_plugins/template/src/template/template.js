@@ -9,7 +9,7 @@ export default class Template extends Plugin {
     async init() {
         const editor = this.editor;
       	//load config file
-        const templateArray = await fetch('/modules/custom/ckeditor5_template/js/ckeditor5_plugins/template/src/template/ckeditor5_templates.json')
+        const templateArray = await fetch('/modules/contrib/ckeditor5_template/js/ckeditor5_plugins/template/src/template/ckeditor5_templates.json')
           .then(res => res.json())
           .catch(error => console.error(error));
 
