@@ -39,12 +39,12 @@ Your own content can be stored here in the following format:
 ```
 
 * title | `string`
-* icon | `*svg` from https://github.com/marella/material-design-icons/tree/ce219a76773e47b0e0a182ebf84e88ab38e540d6/svg/outlined
+* icon | `*svg` from https://marella.me/material-design-icons/demo/font/#outlined
 * description | `string`
 * html | `any custom html code`
 
 You have the possibility to choose from over 1000 available SVG. All outlined material-design-icons have been integrated into the build file. This is also the reason for the size of the file. 
-When creating the template file, you only have to select an available SVG from https://github.com/marella/material-design-icons/tree/ce219a76773e47b0e0a182ebf84e88ab38e540d6/svg/outlined and enter it under `icons`.
+When creating the template file, you only have to select an available SVG from https://marella.me/material-design-icons/demo/font/#outlined and enter it under `icons`.
 
 ## Demo
 ![ckeditor5_template](https://github.com/vincenthoehn/ckeditor5_template/assets/78547173/9fda4c64-a416-4b10-b46c-360daeded1b8)
