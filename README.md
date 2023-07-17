@@ -12,7 +12,7 @@ It is a successor of the Drupal ckeditor_template module. The predecessor is unf
 
 * Enable ckeditor5 
 * Clone the repo into your modules directory:
-  `git clone git@github.com:vincenthoehn/ckeditor5_template.git`
+  `git clone git@git.drupal.org:project/ckeditor5_template.git`
 * Install as you would normally install a contributed Drupal module.
   See https://www.drupal.org/docs/extending-drupal/installing-modules for more
   information.
