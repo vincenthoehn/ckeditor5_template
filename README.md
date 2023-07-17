@@ -22,8 +22,8 @@ Thats all :)
 
 ## Usage
 
-There is the file `ckeditor5_template/js/ckeditor5_plugins/template/src/template`
-/ckeditor5_templates.json in the project. It is a JSON file that is loaded at runtime. 
+There is the file `ckeditor5_template/js/ckeditor5_plugins/template/src/template/ckeditor5_templates.json`
+in the project. It is a JSON file that is loaded at runtime. 
 Your own content can be stored here in the following format:
 
 ```json
