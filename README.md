@@ -1,5 +1,9 @@
 
 # Drupal CKEditor 5 Template
+(This project is no longer being developed here and may no longer be up to date. 
+For more information, issues, current releases, check out the official Drupal project page!
+https://www.drupal.org/project/ckeditor5_template
+)
 
 This project provides a CKEditor5 plugin for Drupal. It allows to insert predefined content.  
 
